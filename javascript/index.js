@@ -10,13 +10,13 @@ function test(){
     CurrentInput = UserInput.value;
     ArrayInput = CurrentInput.split(" ");
     for(num of ArrayInput){
-        if(Number(num)){
+        if(Number(num) | Number(num) == 0){
             if(num%3 == 0){
                 NumberResult += 1;
             }
         }
     }
-    console.log(NumberResult);
+
     if(NumberResult > 0){
         OutPut.innerHTML = NumberResult + " number(s) divisable by 3";
         OutPut.removeAttribute("class"); 

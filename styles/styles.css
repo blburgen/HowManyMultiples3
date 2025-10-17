@@ -1,3 +1,21 @@
+body{
+    background-color: darkgrey;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: white;
+    border: 1px black solid;
+    padding: 10px;
+}
+
 .blah{
     color: red;
     font-weight: bold;
