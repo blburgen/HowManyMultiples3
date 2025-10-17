@@ -10,7 +10,7 @@ function test(){
     CurrentInput = UserInput.value;
     ArrayInput = CurrentInput.split(" ");
     for(num of ArrayInput){
-        if(Number(num) | Number(num) == 0){
+        if(Number(num)){
             if(num%3 == 0){
                 NumberResult += 1;
             }
@@ -18,10 +18,10 @@ function test(){
     }
 
     if(NumberResult > 0){
-        OutPut.innerHTML = NumberResult + " number(s) divisable by 3";
+        OutPut.innerHTML = NumberResult + " non 0 number(s) divisable by 3";
         OutPut.removeAttribute("class"); 
     } else {
-        OutPut.innerHTML = "Blah ..... no numbers divisable by 3";
+        OutPut.innerHTML = "Blah ..... no non 0 numbers divisable by 3";
         OutPut.classList.add("blah");
     }
 }
