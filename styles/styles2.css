@@ -12,6 +12,25 @@ input{
     margin-right: 10px;
 }
 
+button{
+    border-radius: .5rem;
+    box-shadow: 2px 2px ;
+}
+
+button:hover{
+    box-shadow: 1px 1px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+button:active{
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
 .userinput{
     display: flex;
 }
