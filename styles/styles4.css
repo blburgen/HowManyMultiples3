@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    width: 95vw;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+button{
+    box-shadow: 2px 2px;
+    margin: 3px;
+}
+
+button:hover{
+    box-shadow: 1px 1px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+button:active{
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+input{
+    display: flex;
+    flex-grow: 1;
+    margin: 3px;
+    position: relative;
+    top: 1px;
+}
+
+.UserForm{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background-color: white;
+    width: 40vw;
+}
+
+.Userlabel{
+    display: block;
+    text-align: center;
+}
+
+.UserDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.UserInput{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#two, #three, #four, #five{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#UserResults{
+    text-align: center;
+}
+
+.blah{
+    color: red;
+    font-weight: bold;
+}
