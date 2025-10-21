@@ -63,6 +63,6 @@ function results() {
         UserResults.innerHTML = "1 number is divisable by " + divisableNumber + "<br> The number is " + outputArray;
     } else {
         UserResults.removeAttribute("class");
-        UserResults.innerHTML = total + " number is divisable by " + divisableNumber + "<br> The numbers are " + outputArray;
+        UserResults.innerHTML = total + " numbers are divisable by " + divisableNumber + "<br> The numbers are " + outputArray;
     }
 }
