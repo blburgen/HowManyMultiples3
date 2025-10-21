@@ -1,0 +1,1 @@
+// 0 is divisible by every non-zero integer
