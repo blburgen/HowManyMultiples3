@@ -19,7 +19,7 @@ button:hover{
     left: 1px;
 }
 
-button:active{
+button:active, button:disabled{
     box-shadow: none;
     position: relative;
     top: 2px;
