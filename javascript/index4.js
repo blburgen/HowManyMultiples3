@@ -7,7 +7,6 @@ let five = document.getElementById("five");
 let UserInput = document.getElementById("UserInput");
 let calculate = document.getElementById("calculate");
 
-
 let divisableNumber = 3;
 let total = 0;
 let outputArray = [];
@@ -18,7 +17,6 @@ three.addEventListener("click", () => {divisableFunction(three,3)});
 four.addEventListener("click", () => {divisableFunction(four,4)});
 five.addEventListener("click", () => {divisableFunction(five,5)});
 calculate.addEventListener("click", results);
-
 
 function clearform(){
     divisableNumber = 3;
@@ -67,5 +65,4 @@ function results() {
         UserResults.removeAttribute("class");
         UserResults.innerHTML = total + " number is divisable by " + divisableNumber + "<br> The numbers are " + outputArray;
     }
-    // UserResults.innerHTML = inputResults;
 }
