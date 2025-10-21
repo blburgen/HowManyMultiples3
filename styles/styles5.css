@@ -39,7 +39,7 @@ input{
     padding: 10px;
     border: 1px solid black;
     border-radius: .5rem;
-    width: 30vw;
+    width: 35vw;
     min-width: 200px;
 }
 
@@ -54,5 +54,6 @@ input{
 .blah{
     color: red;
     font-weight: 900;
+    font-size: larger;
     text-shadow: 1px 1px black;
 }
