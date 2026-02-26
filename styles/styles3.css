@@ -33,6 +33,10 @@ a{
     background-color: aqua;
     padding: 10px;
 }
+.active {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
 
 .blah{
     color: red;

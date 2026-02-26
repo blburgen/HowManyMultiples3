@@ -37,3 +37,7 @@ a{
     margin: 10px;
     background-color: rgb(222, 255, 244);
 }
+.active {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
