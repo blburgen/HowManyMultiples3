@@ -9,30 +9,38 @@
         <script src="javascript/index4.js" defer></script>
     </head>
     <body>
-        <div class="UserForm">
-            <div>
-                <label class="Userlabel">
-                    Which number would you like your array of numbers divisable by
-                </label>
-                <div class="UserDiv">
-                    <button id="two">2</button>
-                    <button id="three" disabled>3</button>
-                    <button id="four">4</button>
-                    <button id="five">5</button>
+        <nav>
+            <a href="./index.html">One</a>
+            <a href="./index2.html">Two</a>
+            <a href="./index3.html">Three</a>
+            <a href="./index4.html" class="active">Four</a>
+            <a href="./index5.html">Five</a>
+        </nav>
+        <main>
+            <div class="UserForm">
+                <div>
+                    <label class="Userlabel">
+                        Which number would you like your array of numbers divisable by
+                    </label>
+                    <div class="UserDiv">
+                        <button id="two">2</button>
+                        <button id="three" disabled>3</button>
+                        <button id="four">4</button>
+                        <button id="five">5</button>
+                    </div>
                 </div>
+                <div>
+                    <label for="UserInput" class="Userlabel">
+                        Input numbers, separate each set of numbers by a space
+                    </label>
+                    <div class="UserInput">
+                        <input type="text" name="UserInput" id="UserInput">
+                        <button type="submit" id="calculate">Calculate</button>
+                        <button id="ClearForm">Clear</button>
+                    </div>
+                    <div id="UserResults">Make your choices and press calculate button.</div>
+                </div>  
             </div>
-            <div>
-                <label for="UserInput" class="Userlabel">
-                    Input numbers, separate each set of numbers by a space
-                </label>
-                <div class="UserInput">
-                    <input type="text" name="UserInput" id="UserInput">
-                    <button type="submit" id="calculate">Calculate</button>
-                    <button id="ClearForm">Clear</button>
-                </div>
-                <div id="UserResults">Make your choices and press calculate button.</div>
-            </div>  
-        </div>
+        </main>
     </body>
-    
 </html>

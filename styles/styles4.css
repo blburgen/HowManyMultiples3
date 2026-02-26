@@ -1,10 +1,31 @@
 body{
+    background-color: darkgray;
+}
+
+main{
     display: flex;
-    width: 95vw;
+    width: 100%;
     height: 95vh;
     align-items: center;
     justify-content: center;
-    background-color: darkgray;
+    
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    flex-grow: 1;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: larger;
+    margin: 10px;
+    background-color: rgb(222, 255, 244);
 }
 
 button{
@@ -32,6 +53,11 @@ input{
     margin: 3px;
     position: relative;
     top: 1px;
+}
+
+.active {
+    background-color: black;
+    color: white;
 }
 
 .UserForm{

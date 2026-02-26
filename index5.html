@@ -10,15 +10,24 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     </head>
     <body>
-        <div class="UserForm">
-            <label for="UserInput">Input numbers separated by a space to find out what they are divisable by.</label>
-            <div class="UserInput">
-                <input type="text" name="UserInput" id="UserInput" placeholder="example: 10 15 25">
-                <button type="submit">Calculate</button>
-                <button id="clear">Clear</button>
+        <nav>
+            <a href="./index.html">One</a>
+            <a href="./index2.html">Two</a>
+            <a href="./index3.html">Three</a>
+            <a href="./index4.html">Four</a>
+            <a href="./index5.html" class="active">Five</a>
+        </nav>
+        <main>
+            <div class="UserForm">
+                <label for="UserInput">Input numbers separated by a space to find out what they are divisable by.</label>
+                <div class="UserInput">
+                    <input type="text" name="UserInput" id="UserInput" placeholder="example: 10 15 25">
+                    <button type="submit">Calculate</button>
+                    <button id="clear">Clear</button>
+                </div>
+                <div id="Output">Pending input</div>
             </div>
-            <div id="Output">Form Under Construction</div>
-        </div>
+        </main>
     </body>
     <script src="javascript/index5.js"></script>
 </html>
