@@ -11,23 +11,6 @@ main{
 
 }
 
-nav{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-a{
-    flex-grow: 1;
-    text-decoration: none;
-    padding: 5px;
-    border: 1px black solid;
-    border-radius: 1rem;
-    text-align: center;
-    font-size: larger;
-    margin: 10px;
-    background-color: rgb(222, 255, 244);
-}
-
 input{
     margin: auto;
     margin-right: 10px;
@@ -50,11 +33,6 @@ button:active{
     position: relative;
     top: 2px;
     left: 2px;
-}
-
-.active {
-    background-color: rgb(43, 43, 43);
-    color: white;
 }
 
 .userinput{
